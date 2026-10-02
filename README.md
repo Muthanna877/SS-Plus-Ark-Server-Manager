@@ -47,6 +47,8 @@ A free Windows desktop app for installing and managing your own ARK: Survival As
 - ARK only reads its configuration files when the server starts, and overwrites them with its own state on shutdown — always make config changes while the server is **stopped**.
 - RCON authentication uses your server's **Admin Password** — ARK doesn't have a separate RCON password.
 - If you can't join your own server ("connection timeout"), check that **Exclusive Join** isn't enabled without your account added to the whitelist.
+   ## How it built
+  Using Electron (Chromium + Node.js desktop shell) with a React + Vite front end
   ## Bug Reports & Support
 
 Found a bug or need help? Join the Discord: https://discord.gg/6vCZu4Bzyx 
